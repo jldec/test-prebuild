@@ -1,4 +1,4 @@
+# Gitpod prebuilds save time for developers.
 tasks:
   - init: |
-    npm install
-    echo 'Gitpod prebuilds save time for developers.'
+      npm install
