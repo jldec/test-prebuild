@@ -1,0 +1,16 @@
+{
+  "name": "test-prebuild",
+  "version": "1.0.0",
+  "description": "Demonstrate Gitpod prebuild with npm install",
+  "main": "server.js",
+  "dependencies": {
+    "fastify": "^3.25.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "https://www.fastify.io",
+  "license": "MIT"
+}
