@@ -12,5 +12,9 @@
   },
   "keywords": [],
   "author": "https://www.fastify.io",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jldec/test-prebuild"
+  }
 }
