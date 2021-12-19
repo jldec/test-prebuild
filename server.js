@@ -3,9 +3,12 @@
 // Require the framework and instantiate it
 const fastify = require('fastify')({ logger: true })
 
+// In-memory request counter (per instance)
+let count = 0
+
 // Declare a route
 fastify.get('/', async (request, reply) => {
-  return { hello: 'world' }
+  return { hello: 'world', count: count++ }
 })
 
 // Run the server!
