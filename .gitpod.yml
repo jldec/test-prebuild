@@ -2,5 +2,5 @@
 tasks:
   - init: |
       npm install
-  - command: |
+    command: |
       npm start
