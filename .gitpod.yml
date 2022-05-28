@@ -6,5 +6,5 @@ tasks:
       npm install
   - name: In workspace
     command: |
-      # npm start
-      echo "Hello before-task"
+      echo `gp url` >> command.txt
+      npm start
